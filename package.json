@@ -1,0 +1,54 @@
+{
+  "name": "dotee-api",
+  "version": "1.0.0",
+  "description": "An API developed using node.js, Postgres and Sequelize",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./api/app.js",
+    "dev": "nodemon --exec babel-node ./api/app.js"
+  },
+  "engines": {
+    "node": "10.16.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seunmeme/Dotee-Api.git"
+  },
+  "keywords": [
+    "Dotee",
+    "Api"
+  ],
+  "author": "Seun Odewale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seunmeme/Dotee-Api/issues"
+  },
+  "homepage": "https://github.com/seunmeme/Dotee-Api#readme",
+  "dependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.19.3",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.3"
+  }
+}
